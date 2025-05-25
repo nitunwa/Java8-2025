@@ -1,0 +1,63 @@
+
+##### https://chatgpt.com/share/6832693a-5440-800d-8a20-be1442ce5a39
+
+Java 8-focused collection questions based on the provided JSON data:
+
+Find the total number of unique products that were ordered at least once.
+
+List all customer IDs who placed more than one order.
+
+Calculate the total revenue generated from all orders.
+
+Identify the product that has the highest total quantity ordered across all orders.
+
+List all products from the "Electronics" category that were never ordered.
+
+Calculate the total quantity of each product ordered by "CUST01".
+
+Find the average order value (sum of item prices per order) for all orders.
+
+Generate a mapping of each category to the total quantity of items sold in that category.
+
+Find the top 3 most frequently ordered products based on quantity.
+
+
+##############################################################################################
+
+What is the total quantity of all products available in the inventory?
+Output: 359
+(5 + 20 + 10 + 15 + 3 + 6 + 100 + 200)
+
+List all unique product names that were ordered.
+Output: [Laptop, Mouse, Phone, Charger, Desk, Chair, Notebook, Pen]
+
+How many total units were ordered across all orders?
+Output: 24
+(1 + 2 + 1 + 1 + 1 + 2 + 10 + 5)
+
+What is the total sales value across all orders?
+Output: 2149.0
+(1000 + 2×25 + 700 + 30 + 150 + 2×80 + 10×3 + 5×1)
+
+How many orders were placed by customer CUST01?
+Output: 2
+(ORD001 and ORD003)
+
+List all products belonging to category Furniture.
+Output: [Desk, Chair]
+
+Which product has the highest quantity available in inventory?
+Output: Pen
+
+What is the total quantity of Electronics products available in inventory?
+Output: 50
+(5 + 20 + 10 + 15)
+
+What is the total number of distinct customers who placed orders?
+Output: 3
+(CUST01, CUST02, CUST03)
+
+Which customer ordered the most number of items (in terms of total quantity)?
+Output: CUST01
+(ORD001: 1 + 2 = 3, ORD003: 1 + 2 = 3, total = 6 items; more than others)
+
